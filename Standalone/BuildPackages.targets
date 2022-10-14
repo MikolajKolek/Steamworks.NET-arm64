@@ -40,6 +40,9 @@
 				<Properties>Platform=x86;Configuration=OSX-Linux;PackagingBuild=true</Properties>
 			</ToBuilt>
 			<ToBuilt Include="Steamworks.NET.Standard.csproj">
+				<Properties>Platform=arm64;Configuration=OSX-Linux;PackagingBuild=true</Properties>
+			</ToBuilt>
+			<ToBuilt Include="Steamworks.NET.Standard.csproj">
 				<Properties>
 					Platform=x64;
 					Configuration=Windows;
